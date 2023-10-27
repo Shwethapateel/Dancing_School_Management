@@ -1,0 +1,47 @@
+#BranchTableBody{
+    background-image: url('../../Assets/background-design-images-wallpaper.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#BranchTableBody1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin:0 20px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+#BranchTableHead{
+    margin-top:100px;
+    color: white;
+    background-image: linear-gradient(to right, blue, red);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+#data{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+#BranchTable{
+    border: 2px solid white;
+    cursor: pointer;
+}
+th,td{
+    padding: 10px;
+    border: 2px solid white;
+}
+#head1, #head2, #head3{
+    color: blue;
+    background-color: black;
+    font-weight: bolder;
+    font-size: x-large;
+}
+tr:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    background-color: rgba(0, 0, 0, 0.7);
+}

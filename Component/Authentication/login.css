@@ -1,0 +1,83 @@
+#loginbody{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../../Assets/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 750px;
+    color: white;
+}
+#loginbody1{
+    border: 2px solid white;
+}
+#loginbody2{
+    margin: 20px;
+}
+#loginhead{
+    text-align: center;
+}
+#lgnhead{
+    text-align: center;
+}
+#loginform{
+    border: 2px solid black;
+    border: none;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,5);
+    margin-top: -80px;
+    height: 370px;
+    width: 450px;
+    text-align: start;
+}
+#label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#x,#y{
+    margin-top: 5px;
+    border-top: 1.5px solid whitesmoke;
+    padding-top: 5px;
+    margin-bottom: 9px;
+}
+input{
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#loginbtn{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    left: 90px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, red, blue );
+    color: white;
+    font-weight: bold;
+}
+#loginbtn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, whitesmoke, whitesmoke);
+    color: blue;
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#loginform{
+  animation: slideInFromTop 2.5s ease-in-out forwards;
+}

@@ -1,0 +1,97 @@
+#Academybody{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    color: white;
+    margin-top: -40px;
+}
+#body1{
+    border: 2px solid white;
+}
+#body2{
+    margin: 20px;
+}
+#Academytable{
+    border: 2px solid black;
+    border: none;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,5);
+    /* margin-top: 50px; */
+    height: 670px;
+    width: 450px;
+    text-align: start;
+}
+label, #gen{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#academyreg{
+    text-align: center;
+    margin-top: 5px;
+    font-weight:bolder;
+    font-size:x-large;
+    color: blue;
+}
+#a,#b,#c,#d,#e, #f{
+    margin-top: 5px;
+    border-top: 1.5px solid whitesmoke;
+    padding-top: 5px;
+    margin-bottom: 9px;
+}
+input{
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#bttn{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    left: 90px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, red, blue );
+    color: white;
+    font-weight: bold;
+}
+#bttn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, whitesmoke, whitesmoke);
+    color: blue;
+}
+#gender{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#Academytable{
+  animation: slideInFromRight 3.5s ease-in-out forwards;
+}
+
+/* {
+    white-space: pre-wrap;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(81deg,#ff4900,#a2505c 54%,#005cfb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2.875em;
+    line-height: 1.2;
+} */
